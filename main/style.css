@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-image: url(../images/wall.png);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6D6D6D;
+    width: 1500px;
+    height: 200px; /* Voeg een hoogte toe voor beter zicht */
+    margin: 50px auto; /* Centreer de header horizontaal */
+    box-sizing: border-box; /* Zorg ervoor dat padding en border worden meegeteld bij de totale breedte en hoogte */
+    border-radius: 64px;
+}
+
+
+header p {
+    font-weight: 700;
+    font-size: 90px;
+    text-align: center; /* Centreer de tekst */
+    margin: 0; /* Verwijder standaard marges */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px; /* Voeg een marge boven de knop toe */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 70px;
+    font-weight: 700;
+    color: #000000;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 64px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.deco {
+    margin: 0;
+    display: flex;
+}
